@@ -1,0 +1,26 @@
+{
+    "name": "vulturdev/cuentica",
+    "description": "Cuentica API Integration in Laravel",
+    "type": "library",
+    "keywords": ["cuentica","laravel"],
+    "authors": [
+        {
+            "name": "vcompanyb",
+            "email": "vcompanyb@vulturdev.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "ixudra/curl": "dev-master"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Vulturdev\\Cuentica\\CuenticaServiceProvider"
+        ],
+        "aliases": {
+          "Cuentica": "Vulturdev\\Cuentica\\Facade"
+        }
+      }
+    }
+}
