@@ -9,7 +9,6 @@
             "email": "vcompanyb@vulturdev.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
       "ixudra/curl": "dev-master"
     },
