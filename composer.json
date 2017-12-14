@@ -12,14 +12,16 @@
     "require": {
       "ixudra/curl": "6.*"
     },
+    "autoload": {
+      "psr-4": {
+        "Vulturdev\\Cuentica\\": "src/"
+      }
+    },
     "extra": {
       "laravel": {
         "providers": [
           "Vulturdev\\Cuentica\\CuenticaServiceProvider"
-        ],
-        "aliases": {
-          "Cuentica": "Vulturdev\\Cuentica\\Facade"
-        }
+        ]
       }
     }
 }
