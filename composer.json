@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-      "ixudra/curl": "dev-master"
+      "ixudra/curl": "6.*"
     },
     "extra": {
       "laravel": {
