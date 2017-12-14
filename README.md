@@ -5,7 +5,7 @@ Custom PHP Cuentica library for the Laravel 5 framework - developed by [Vulturde
 
 ## Installation
 
-Pull this package in through Composer.
+Pull this package using Composer.
 
 ```js
 
