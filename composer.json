@@ -1,6 +1,7 @@
 {
     "name": "vulturdev/cuentica",
     "description": "Cuentica API Integration in Laravel",
+    "version": "1.0.0",
     "type": "library",
     "keywords": ["cuentica","laravel"],
     "authors": [
