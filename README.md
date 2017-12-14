@@ -92,7 +92,7 @@ Add the service provider to your `config/app.php` file:
 
     $provider = new Provider;
     print_r($provider->providers());
-    print_r($provider->providers(array('q' => 'A82018474')));
+    print_r($provider->providers(array('q' => $search)));
     print_r($provider->providers(array('page_size' => '5','page' => '2')));
     print_r($this->createProvider());
     print_r($provider->provider(377692));
@@ -123,7 +123,7 @@ Add the service provider to your `config/app.php` file:
     $customer = new Customer;
     
     print_r($customer->customers());
-    print_r($customer->customers(array('q' => '48629493H')));
+    print_r($customer->customers(array('q' => $search)));
     print_r($customer->customers(array('page_size' => '5','page' => '2')));
     print_r($customer->customer(322012));
     print_r($customer->invoices(322012));
