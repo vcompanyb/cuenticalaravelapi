@@ -1,7 +1,7 @@
 Vulturdev/Cuentica
 ================
 
-Custom PHP Cuentica library for the Laravel 5 framework - developed by [Vulturdev](http://vulturdev.com).
+Custom PHP Cuentica library for the Laravel 5 framework - developed by [Vulturdev](http://www.vulturdev.com).
 
 ## Installation
 
